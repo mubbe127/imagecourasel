@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+
+    background-color: black;
+}
+.imageFrame {
+
+    border: 5px solid white;
+    width:800px;
+    height: 500px;
+    z-index: 2;
+    margin: 10% auto;
+    position: relative;
+    overflow: hidden;
+}
+.imageContainer {
+    display: flex;
+    position: absolute;
+    
+}
+
+.controllContainer {
+
+    border: 1px solid white;
+    background-color: white;
+    display: flex;
+    height: 150px;
+    width: 230px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: end;
+
+    
+}
+
+.buttonContainer {
+
+    display: flex;
+    margin-bottom: 10px;
+    height: 20px;
+    gap:20px;
+}
+
+.dotContainer {
+    display: flex;
+    color: black;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.arrow {
+
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+  
+}
+
+.dots {
+    height:20px;
+    cursor: pointer;
+}
+
+.dots path {
+
+    fill: grey;
+}
+#firsticon path {
+
+fill: black;
+ 
+}
+
